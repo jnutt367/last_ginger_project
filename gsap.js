@@ -6,5 +6,6 @@ gsap.fromTo(".ginger",{ y:400, opacity:0} ,{ y: 200, opacity:1, fontSize:45, dur
 gsap.fromTo(".bg-1", { opacity:0.5}, {opacity:1, fill:"orange" }, 5)
 gsap.fromTo(".bg-2", { opacity:0.5}, {opacity:1, fill:"orange" }, 5)
 gsap.to(".the", { paddingTop: 30, duration: 5,fontFamily:"fantasy"}, 5)
+gsap.to("body", { opacity:0.9})
 
     
